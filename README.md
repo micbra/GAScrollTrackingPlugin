@@ -1,5 +1,5 @@
 # Google Analytics Scroll Depth Tracking Plugin
-Fork of Chris Goddard's lightweight Google Analytics scroll tracking plugin extended by accuracy settings.
+Fork of Chris Goddard's lightweight Google Analytics scroll tracking plugin extended with accuracy settings.
 
 ## Usage
 ```javascript
@@ -8,9 +8,9 @@ Fork of Chris Goddard's lightweight Google Analytics scroll tracking plugin exte
 
   var config = {accuracy: 5};
 
-  ga('require', 'scrollDepthTracker', 'plugin/scroll-depth-tracker.js', config);
+  ga('require', 'scrollDepthTracker', './scroll-depth-tracker.js', config);
 ```
-In this example the we update the scroll depth in 5% steps. **Accuracy defaults to 10, though.**
+In this example the we update the scroll depth in 5% steps. **Accuracy defaults to 1, though.**
 
 
 See [SERPs blog post](https://serps.com/blog/building-a-better-scroll-depth-tracking-plugin-google-analytics/?utm_source=github&utm_medium=readme&utm_campaign=GitHub%20Public%20Repos
