@@ -1,6 +1,8 @@
 # Google Analytics Scroll Depth Tracking Plugin
 Fork of Chris Goddard's lightweight Google Analytics scroll tracking plugin extended with accuracy settings.
 
+**Please note that in the latest commit the values of Event, Label and Value have been modified to suit a very specific need. Be very aware what you're doing!"
+
 ## Usage
 ```javascript
   ga('create', 'UA-XXXXXXXX-1', 'auto');
